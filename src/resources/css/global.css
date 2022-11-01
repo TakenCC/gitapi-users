@@ -1,0 +1,4 @@
+.big-input, .container-dt {
+    width: min(600px, 100%);
+    display: inline-block;
+}

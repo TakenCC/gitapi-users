@@ -1,0 +1,62 @@
+table.dt {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.375rem;
+    color: #414b5d;
+    border-spacing: 0;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+th.dt-column {
+    height: 56px;
+    color: #191d27;
+    padding: 1rem 1rem;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+td.dt-cell {
+    height: 52px;
+    padding: 0rem 1rem;
+    color: #565f6f;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+td.dt-cell-type--image img {
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+th.dt-column:not(:first-child),
+td.dt-cell:not(:first-child) {
+    /* padding-left: 0rem; */
+}
+
+table.dt tr:not(:last-child) td.dt-cell {
+    border-bottom: 1px solid #dbe2eb;
+}
+
+table.dt tr:first-child td.dt-cell {
+    border-top: 1px solid #dbe2eb;
+}
+
+th.dt-column-type--text,
+th.dt-column-type--list,
+td.dt-cell-type--text {
+    text-align: left;
+}
+
+th.dt-column-type--number,
+td.dt-cell-type--number {
+    text-align: right;
+}
+
+th.dt-column-type--image,
+td.dt-cell.dt-cell-type--image {
+    text-align: center;
+}
