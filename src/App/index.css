@@ -2,3 +2,7 @@
     width: min(600px, 100%);
     display: inline-block;
 }
+
+.icon-button {
+    top: 30px;
+}

@@ -4,6 +4,7 @@ import './dataTables.css';
 /**
  * Datatables
  * 
+ * @author Taken <takencol@gmail.com>
  * @param {{label: string}[]} columns 
  * @param {{value: string}[]} data 
  * @returns {JSX}
